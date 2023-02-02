@@ -7,13 +7,19 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { HomeComponent } from './Components/pages/home/home.component';
 import { SearchComponent } from './Components/partials/search/search.component';
+import { TagsComponent } from './Components/partials/tags/tags.component';
+import { FoodPageComponent } from './Components/pages/food-page/food-page.component';
+import { CartPageComponent } from './Components/pages/cart-page/cart-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    SearchComponent
+    SearchComponent,
+    TagsComponent,
+    FoodPageComponent,
+    CartPageComponent
   ],
   imports: [
     BrowserModule,
